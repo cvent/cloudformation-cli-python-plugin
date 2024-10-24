@@ -13,7 +13,7 @@ setup(
     include_package_data=True,
     zip_safe=True,
     python_requires=">=3.6",
-    install_requires=["boto3>=1.10.20", 'dataclasses;python_version<"3.7"'],
+    install_requires=["boto3>=1.35.48", 'dataclasses;python_version<"3.7"'],
     license="Apache License 2.0",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
